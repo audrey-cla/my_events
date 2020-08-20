@@ -1,0 +1,36 @@
+body {
+    background-color: lightgray;
+}
+
+#menu {
+    background-color: lawngreen;
+}
+.img-home-affiche {background-color: grey;
+width: 20vh; height: 20vh;
+}
+
+.test h3{ 
+overflow-wrap: break-word;
+}
+.profile_pic {width: 50px; height: 50px;background-size: cover; border-radius: 100%;}
+#container {
+    display: flex;
+     
+}
+
+@media (max-width: 1024px) {
+  
+#menu {
+      background-color: hotpink;
+      width: 100%!important;
+  }
+
+#container {
+    flex-direction: column;
+      width: 100%;
+
+}
+}
+
+
+@media (max-width: 320px) {#menu {background-color: blue;}}
